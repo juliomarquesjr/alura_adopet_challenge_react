@@ -14,7 +14,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="sigin" element={Sigin} />
+        <Route path="sigin" element={<Sigin />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

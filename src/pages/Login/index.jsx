@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Botao from "../../components/Botao";
 import Caes from "../../components/Caes";
@@ -14,8 +15,12 @@ const Login = () => {
     <React.Fragment>
       <Menu />
       <Titulos>
-        <Botao texto="Ja tenho Conta" tamanho={350}/>
-        <Botao texto="Quero me Cadastrar" tamanho={350}/>
+        <Link to="/">
+          <Botao texto="Ja tenho Conta" tamanho={350} />
+        </Link>
+        <Link to="sigin">
+          <Botao texto="Quero me Cadastrar" tamanho={350} />{" "}
+        </Link>
       </Titulos>
       <Detalhe />
       <Caes />
