@@ -1,0 +1,10 @@
+.detalhesImg {
+    
+  position: absolute;
+  float: right;
+  right: 0;
+  margin-top: -400px;
+
+  height: 664px;
+  width: 134px;
+}

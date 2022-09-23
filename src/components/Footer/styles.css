@@ -1,0 +1,16 @@
+.box_footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #36d6ad;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+
+.footer_texto {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}

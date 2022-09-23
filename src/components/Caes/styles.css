@@ -1,0 +1,10 @@
+.imagemCaes {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.caes {
+    height: 430px;
+    width: 346px;
+  }
