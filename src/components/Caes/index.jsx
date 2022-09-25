@@ -6,10 +6,9 @@ import "./styles.css";
 
 const Caes = () => {
   return (
-    <div className="imagemCaes">
+    <div>
       <img className="caes" src={imagemCaes} alt="Caes Adopet" />
     </div>
   );
 };
 export default Caes;
-

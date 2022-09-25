@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import Botao from "../../components/Botao";
@@ -8,13 +9,19 @@ import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
 import Titulos from "../../components/Titulos";
 
-import "./styles.css";
-
 const Login = () => {
+  useEffect(() => {
+    document.body.style.backgroundColor = "#3772FF";
+  }, []);
+
   return (
     <React.Fragment>
       <Menu />
-      <Titulos>
+      <Titulos
+        titulo="Boas Vindas"
+        subtitulo="Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje?
+          Vem com a gente!"
+      >
         <Link to="login">
           <Botao texto="Ja tenho Conta" tamanho={350} />
         </Link>
@@ -23,8 +30,9 @@ const Login = () => {
         </Link>
       </Titulos>
       <Detalhe />
-      <Caes />
-      <Footer />
+      <Footer>
+        <Caes />
+      </Footer>
     </React.Fragment>
   );
 };

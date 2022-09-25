@@ -7,8 +7,9 @@
 }
 
 .box_images {
-  padding-left: 160px;
-  padding-top: 68px;
+  display: flex;
+  margin-top: 68px;
+  margin-left: 160px;
 }
 
 .icones {
